@@ -1,0 +1,13 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/api/v1.0/get_games
+Accept: application/json
+
+###
+GET http://127.0.0.1:8000/api/v1.0/get_me?user_id=1
+Accept: application/json
+
+###
+POST http://127.0.0.1:8000/api/v1.0/connect_to_game?id_game=3&id_user=1
+Content-Type: application/json
+
